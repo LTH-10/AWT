@@ -10,7 +10,7 @@ export function CounterWithUseState() {
   return (
     <div>
       <h1>Creating counter using useState in functional component</h1>
-      <h3>Sangram Ghorpade</h3>
+      <h3>Name</h3>
       <h1>Counter: {count}</h1>
       <button onClick={() => setCount(count + 1)}>Increase</button>
       <button onClick={() => setCount(count - 1)}>Decrease</button>
